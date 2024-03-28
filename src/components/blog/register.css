@@ -1,0 +1,44 @@
+.signup-form {
+    max-width: 500px;
+    color: #302828;
+    margin: 2rem;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-agricultural-agricultural-rice-field-background-image_264687.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    border-color: #0ab9b0;
+    color: #0a0a0a;
+    font-size: 18px;
+    /* Rounded borders to make inputs circular */
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0ab9b0;
+    color: #131111;
+    border: none;
+    border-radius: 40px;
+    /* Rounded borders to make button circular */
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #1571dbce;
+}

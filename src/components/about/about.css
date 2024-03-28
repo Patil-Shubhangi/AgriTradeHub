@@ -1,0 +1,113 @@
+.about {
+    margin-bottom: 80px;
+}
+
+.about .heading {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 17px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    justify-content: start;
+}
+
+.right row {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .about .container {
+        flex-direction: column;
+    }
+    .about p {
+        padding: 0;
+    }
+    .about .container img {
+        margin-top: 50px;
+        width: 50px;
+    }
+}
+
+.About-container {
+    background-color: rgb(156, 231, 172);
+    top: 10%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: #837d7d;
+    /* Align items at the start of the flex container */
+}
+
+.wrappers h1 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team {
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* Ensure it's a row */
+    /* Prevent wrapping */
+}
+
+.team .team_member {
+    background: #ffffffce;
+    margin: 80px;
+    margin-bottom: 50px;
+    width: 340px;
+    padding: 20px;
+    line-height: 20px;
+    color: #817c7c;
+    position: relative;
+}
+
+.team .team_member h3 {
+    color: #1cbb51;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role {
+    text-align: start;
+    color: #837d7d;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.team .team_member .team_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* Make the image circular */
+    background: #1f1d1d;
+    overflow: hidden;
+    /* Ensure the image doesn't overflow the circle */
+}
+
+.team .team_member .team_img img {
+    width: 100%;
+    /* Ensure the image fills the circle */
+    height: 110%;
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the circle */
+}
+
+
+/* slider css*/
